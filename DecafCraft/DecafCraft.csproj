@@ -5,6 +5,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="Server\Block" />
     <Folder Include="Server\Chat" />
     <Folder Include="Server\Plugin" />
   </ItemGroup>
