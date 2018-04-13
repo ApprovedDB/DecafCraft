@@ -19,8 +19,6 @@ namespace DecafCraft.Server.Entity
         void SetFireTicks(int ticks);
         bool IsDead();
         bool IsValid();
-        IEntity GetPassenger();
-        bool SetPassenger();
         bool IsEmpty();
         bool Eject();
         double GetFallDistance();
@@ -29,6 +27,8 @@ namespace DecafCraft.Server.Entity
         Guid GetUniqueId();
         void PlayEffect(); //TODO: Add EntityEffects
         EntityType GetType();
+        IEntity GetPassenger();
+        bool SetPassenger();
         bool IsInsideVehicle();
         bool LeaveVehicle();
         IEntity GetVehicle();
